@@ -9,9 +9,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "homepage": "https://mypublicportfolio.github.io"
+    "deploy": "gh-pages -b master -d build"
   },
+  "homepage": "https://mypublicportfolio.github.io",
   "dependencies": {
     "@react-three/drei": "^9.80.6",
     "@react-three/fiber": "^8.13.7",
