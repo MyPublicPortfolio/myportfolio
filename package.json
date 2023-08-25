@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "homepage": "https://mypublicportfolio.github.io/myportfolio"
   },
   "dependencies": {
     "@react-three/drei": "^9.80.6",
